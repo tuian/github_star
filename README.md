@@ -15,7 +15,7 @@ github_star.py
 2. 执行 github_join.py, 这个文件是为了注册刚刚生成的username.txt文件中的那些用户
 3. 执行 github_star.py, 这个文件就是最后的操作, 给你的项目添加star
 
-如果想要对生成的账户的用户名和生成账户的多少做修改, 直接修改build_user.py中的 usernumber及 username_suffix这两个变量即可, build_user.py源码如下:
+如果想要对生成的账户的用户名和生成账户的多少做修改, 直接修改build_user.py中的 usernumber及 username_suffix这两个变量即可, build_user.py部分源码如下:
 
 ```
 if __name__ == '__main__':
